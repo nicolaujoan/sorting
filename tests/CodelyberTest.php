@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests;
+namespace Sorting\Tests;
 
 use CodelyTv\Codelyber;
 use PHPUnit\Framework\TestCase;
