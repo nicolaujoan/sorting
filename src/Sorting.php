@@ -2,27 +2,34 @@
 
 namespace CodelyTv;
 
-final class Sorting {
-
-   static function bubbleSort($arr)
+final class Sorting
 {
-    for ($i = 0; $i < count($arr); $i++) {
 
-        for ($j = 0; $j < (count($arr) - $i - 1); $j++) {
+    static function bubbleSort($arr)
+    {
+        for ($i = 0; $i < count($arr); $i++) {
 
-            if ($arr[$j] > $arr[$j + 1]) {
+            // understand this for
+            for ($j = 0; $j < (count($arr) - $i - 1); $j++) {
 
-                $temp = $arr[$j];
+                if ($arr[$j] > $arr[$j + 1]) {
 
-                $arr[$j] = $arr[$j + 1];
-
-                $arr[$j + 1] = $temp;
+                    // swap
+                    $temp = $arr[$j];
+                    $arr[$j] = $arr[$j + 1];
+                    $arr[$j + 1] = $temp;
+                }
             }
         }
+
+        return $arr;
     }
 
-    return $arr;
-}
-}
+    static function mergeSort($arr) {
 
+    }
 
+    static function quickSort($arr) {
+        
+    }
+}
