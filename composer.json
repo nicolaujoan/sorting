@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "CodelyTv\\": "src/"
+      "Sorting\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CodelyTv\\Tests\\": "tests/"
+      "Sorting\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable",
